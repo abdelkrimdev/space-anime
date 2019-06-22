@@ -1,0 +1,40 @@
+{
+  "animes": [
+    {
+      "title": "Shigatsu wa Kimi no Uso",
+      "coverURL": "https://3.bp.blogspot.com/-YKdK3Gt5GVs/WLvoJMP0SbI/AAAAAAAACYs/5O6PfA7L1RsSXWQGeTq2f4SlNOMxqSlfwCLcB/s400/shigatsu-wa-kimi-no-uso-cover.jpg",
+      "bloggerLink": "https://decentanime.blogspot.be/search/label/Shigatsu%20wa%20Kimi%20no%20Uso",
+      "myanimelistLink": "https://myanimelist.net/anime/23273/Shigatsu_wa_Kimi_no_Uso"
+    },
+    {
+      "title": "Zankyou no Terror",
+      "coverURL": "https://3.bp.blogspot.com/-17ZeJqSwoCg/WLvtnZTJB2I/AAAAAAAACZU/D4v1i3tam4MweZEAfbziMhxKP89MZ7C3wCPcB/s400/zankyou-no-terror-cover.jpg",
+      "bloggerLink": "https://decentanime.blogspot.com/search/label/Zankyou%20no%20Terror",
+      "myanimelistLink": "https://myanimelist.net/anime/23283/Zankyou_no_Terror"
+    },
+    {
+      "title": "Sakurasou no Pet na Kanojo",
+      "coverURL": "https://1.bp.blogspot.com/-MA49BrT49DI/WLvtmvjAmwI/AAAAAAAACZI/RmI0z_yIldstIvNOGjpUqqDUXnUAeXbGQCPcB/s400/sakurasou-no-pet-na-kanojo-cover.jpg",
+      "bloggerLink": "https://decentanime.blogspot.com/search/label/Sakurasou%20no%20Pet%20na%20Kanojo",
+      "myanimelistLink": "https://myanimelist.net/anime/13759/Sakurasou_no_Pet_na_Kanojo"
+    },
+    {
+      "title": "Kiseijuu: Sei no Kakuritsu",
+      "coverURL": "https://1.bp.blogspot.com/-rtrUhmakHJM/WLvtmzpiqUI/AAAAAAAACZM/fDe3v8rCfW8Lx5NhTJ7TEqMjXrnjccKygCPcB/s1600/kiseijuu-sei-no-kakuritsu-cover.jpg",
+      "bloggerLink": "https://decentanime.blogspot.com/search/label/Kiseijuu%3A%20Sei%20no%20Kakuritsu",
+      "myanimelistLink": "https://myanimelist.net/anime/22535/Kiseijuu__Sei_no_Kakuritsu"
+    },
+    {
+      "title": "Working!!",
+      "coverURL": "https://4.bp.blogspot.com/-LXzTdmEm9hU/WLvtnPxuQqI/AAAAAAAACZQ/Up8X2nrNAVAKonkfV6opKeDsaqwv319ywCPcB/s1600/working%2521%2521-cover.jpg",
+      "bloggerLink": "https://decentanime.blogspot.com/search/label/Working%21%21",
+      "myanimelistLink": "https://myanimelist.net/anime/6956/Working"
+    },
+    {
+      "title": "Boku Dake ga Inai Machi",
+      "coverURL": "https://4.bp.blogspot.com/-Gpi-h5ABlF8/WLvtmcqK2aI/AAAAAAAACZE/63dhGXKxY-UPa3d6UwG6nINJdevWcRAQACPcB/s1600/boku-dake-ga.-inai-machi-cover.jpg",
+      "bloggerLink": "https://decentanime.blogspot.com/search/label/Boku%20dake%20ga%20Inai%20Machi",
+      "myanimelistLink": "https://myanimelist.net/anime/31043/Boku_dake_ga_Inai_Machi"
+    }
+  ]
+}

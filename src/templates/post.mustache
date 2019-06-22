@@ -1,0 +1,51 @@
+<div class="main-content" dir="rtl" trbidi="on">
+  <div class="post-metadata">
+    <div class="post-cover">
+        <img src="{{{postCoverURL}}}" />
+    </div>
+    <div class="post-description">
+      {{{postDescription}}}
+    </div>
+  </div>
+  <div class="post-body">
+    <div class="anime-presentation">
+      <div class="anime-card">
+        <div class="anime-cover">
+          <a href="{{{myanimelistLink}}}" imageanchor="1" target="_newtab">
+            <img alt="{{{animeTitle}}} Cover" border="0" title="{{{animeTitle}}}"
+              src="{{{animeCoverURL}}}" />
+          </a>
+        </div>
+        <dl class="anime-details">
+          {{#animeDetails}}
+          <div class="anime-detail">
+            <dt class="detail-key">{{{key}}}:</dt><dd class="detail-value"><bdo> {{{value}}}</bdo></dd>
+          </div>
+          {{/animeDetails}}
+        </dl>
+      </div>
+      <div class="anime-story">
+          <blockquote>
+            {{{animeStory}}}
+          </blockquote>
+      </div>
+    </div>
+    <div class="download-section">
+      <div class="section-title">
+        <h2>روابط تحميل الحلقات</h2>
+      </div>
+      <div class="direct-download">
+        <ul class="episodes-list">
+          {{#episodesLinks}}
+          <li class="episode-link"><a href="{{{value}}}" target="_newtab">{{{key}}}</a></li>
+          {{/episodesLinks}}
+        </ul>
+      </div>
+      {{#isSoftSub}}
+      <div class="get-subtitles">
+          <b>ملفات الترجمة: <a href="{{{subtitlesLink}}}" target="_newtab">هنا</a></b>
+      </div>
+      {{/isSoftSub}}
+    </div>
+  </div>
+</div>
