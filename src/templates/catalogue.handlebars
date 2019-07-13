@@ -1,5 +1,5 @@
 <div class="board">
-  {{#animes}}
+  {{#each animes}}
   <div class="card">
     <a href="{{{myanimelistLink}}}" target="_newtab" imageanchor="1">
       <img class="cover" alt="{{title}} Cover" border="0" title="{{title}}"
@@ -9,5 +9,5 @@
       <a href="{{{bloggerLink}}}">{{{title}}}</a>
     </div>
   </div>
-  {{/animes}}
+  {{/each}}
 </div>
