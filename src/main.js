@@ -47,8 +47,20 @@ const writeFile = (filePath, content) => {
   })
 }
 
-// Build templates
-const templatesDir = directoryPath('templates')
+const buildFilePath = (directoryPath, fileName) => path.join(directoryPath, fileName)
+
+const removeFileExtension = (fileName) => fileName.split('.')[0]
+
+const compileTemplate = (templateContent) => handlebars.compile(templateContent)
+
+const buildContent = (sourceDir, distributionDir, srcFileName, template)=> {
+  const srcFilePath = buildFilePath(sourceDir, `${srcFileName}.json`)
+  const distFilePath = buildFilePath(distributionDir, `${srcFileName}.html`)
+
+  const content = readFile(srcFilePath, data => template(JSON.parse(data)))
+
+  writeFile(distFilePath, content)
+}
 
 const postTemplatePath = filePath(templatesDir, 'post.handlebars')
 const postTemplate = buildTemplate(postTemplatePath)
