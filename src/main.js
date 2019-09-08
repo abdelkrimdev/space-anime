@@ -87,3 +87,9 @@ const generatePosts = (postTemplatePath) => {
   })
 }
 
+/*---------------------------[Generate Blog Contents]---------------------------*/
+const templatesDir = srcDirectoryPath('templates')
+
+generatePage('catalogue', buildFilePath(templatesDir, 'catalogue.handlebars'))
+generatePosts(buildFilePath(templatesDir, 'post.handlebars'))
+/*------------------------------------[Done]------------------------------------*/
