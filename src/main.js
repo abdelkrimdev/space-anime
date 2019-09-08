@@ -27,13 +27,22 @@ const createDirectory = (directoryPath) => {
   }
 }
 
-const buildTemplate = (templatePath) => {
-  fs.readFile(templatePath, 'utf8', (error, content) => {
+const readFile = (filePath, contentReader) => {
+  try {
+    const fileContent = fs.readFileSync(filePath, { encoding: 'utf8' })
+    return contentReader && contentReader(fileContent)
+  } catch (error) {
+    console.log(`An error occurred while reading ${filePath}, ${error}`)
+  }
+}
+
+const writeFile = (filePath, content) => {
+  fs.writeFile(filePath, content, { encoding: 'utf8' }, error => {
     if (error) {
-      console.log(`An error occurred while reading ${templatePath}, ${error}`)
+      console.log(`An error occurred while writing ${filePath}, ${error}`)
     }
-    if (content) {
-      return handlebars.compile(content)
+    else {
+      console.log(`Successfully wrote ${filePath}`)
     }
   })
 }
