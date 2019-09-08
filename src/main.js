@@ -62,8 +62,17 @@ const buildContent = (sourceDir, distributionDir, srcFileName, template)=> {
   writeFile(distFilePath, content)
 }
 
-const postTemplatePath = filePath(templatesDir, 'post.handlebars')
-const postTemplate = buildTemplate(postTemplatePath)
+const generatePage = (pageName, pageTemplatePath) => {
+  const contentDirectoryName = 'pages';
+  const pagesSourceDir = srcDirectoryPath(contentDirectoryName)
+  const pagesDistributionDir = distDirectoryPath(contentDirectoryName)
+  
+  const pageTemplate = readFile(pageTemplatePath, compileTemplate)
+
+  createDirectory(pagesDistributionDir)
+  buildContent(pagesSourceDir, pagesDistributionDir, pageName, pageTemplate)
+}
+
 
 // Generate HTML for blog posts
 const postsDir = directoryPath('posts')
