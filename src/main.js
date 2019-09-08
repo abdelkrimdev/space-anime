@@ -2,8 +2,12 @@ import fs from 'fs'
 import handlebars from 'handlebars'
 import path from 'path'
 
-const directoryPath = (directoryName) => path.resolve('src', directoryName)
-const filePath = (directoryPath, fileName) => path.join(directoryPath, fileName)
+const SOURCE_DIRECTORY = 'src'
+const srcDirectoryPath = (directoryName) => path.resolve(SOURCE_DIRECTORY, directoryName)
+
+const DISTRIBUTION_DIRECTORY = 'dist'
+const distDirectoryPath = (directoryName) => path.resolve(DISTRIBUTION_DIRECTORY, directoryName)
+
 
 const buildTemplate = (templatePath) => {
   fs.readFile(templatePath, 'utf8', (error, content) => {
