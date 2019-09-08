@@ -83,6 +83,7 @@ blockquote:after {
 
 .anime-details {
   font-size: large;
+  width: 484px;
   margin: auto;
   flex: auto;
 }
