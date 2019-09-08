@@ -73,6 +73,17 @@ const generatePage = (pageName, pageTemplatePath) => {
   buildContent(pagesSourceDir, pagesDistributionDir, pageName, pageTemplate)
 }
 
+const generatePosts = (postTemplatePath) => {
+  const contentDirectoryName = 'posts';
+  const postsSourceDir = srcDirectoryPath(contentDirectoryName)
+  const postsDistributionDir = distDirectoryPath(contentDirectoryName)
 
-// Generate HTML for blog posts
-const postsDir = directoryPath('posts')
+  const postTemplate = readFile(postTemplatePath, compileTemplate)
+
+  createDirectory(postsDistributionDir)
+  readDirectory(postsSourceDir).forEach(post => {
+    const postName = removeFileExtension(post)
+    buildContent(postsSourceDir, postsDistributionDir, postName, postTemplate)
+  })
+}
+
