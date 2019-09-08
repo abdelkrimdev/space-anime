@@ -1,19 +1,18 @@
 {
   "name": "decent-anime-blog",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/main.js",
+  "description": "Content Generator for Decent Anime Blog on Blogger. (https://decentanime.blogspot.com)",
   "scripts": {
-    "start": "babel-node src/main.js"
+    "start": "babel-node src/scripts/main.js"
   },
   "author": "Abdelkrim Dib",
   "license": "MIT",
   "dependencies": {
-    "handlebars": "^4.1.2"
+    "handlebars": "^4.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/node": "^7.4.5",
-    "@babel/preset-env": "^7.4.5"
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0"
   }
 }
