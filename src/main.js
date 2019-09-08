@@ -8,6 +8,24 @@ const srcDirectoryPath = (directoryName) => path.resolve(SOURCE_DIRECTORY, direc
 const DISTRIBUTION_DIRECTORY = 'dist'
 const distDirectoryPath = (directoryName) => path.resolve(DISTRIBUTION_DIRECTORY, directoryName)
 
+const readDirectory = (directoryPath) => {
+  try {
+    return fs.readdirSync(directoryPath, { encoding: 'utf8' })
+  } catch (error) {
+    console.log(`An error occurred while listing ${directoryPath}, ${error}`)
+  }
+}
+
+const createDirectory = (directoryPath) => {
+  if (!fs.existsSync(directoryPath)){
+    try {
+      fs.mkdirSync(directoryPath, { recursive: true })
+      console.log(`Successfully created ${directoryPath}`)
+    } catch (error) {
+      console.log(`An error occurred while creating ${directoryPath}, ${error}`)
+    }
+  }
+}
 
 const buildTemplate = (templatePath) => {
   fs.readFile(templatePath, 'utf8', (error, content) => {
