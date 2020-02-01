@@ -42,6 +42,10 @@ blockquote:after {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.card .title {
+  line-height: 20px;
+}
+
 .post-body .cover {
   height: 320px;
   width: fit-content;
