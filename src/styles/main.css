@@ -1,3 +1,7 @@
+Header h1 {
+  direction: ltr;
+}
+
 blockquote {
   border-color: #E6E6E6;
   border-style: solid;
