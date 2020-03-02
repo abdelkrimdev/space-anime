@@ -1,3 +1,7 @@
+.sidebar-container .widget {
+  padding: 0;
+}
+
 Header h1 {
   direction: ltr;
 }
