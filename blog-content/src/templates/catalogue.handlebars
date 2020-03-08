@@ -1,12 +1,12 @@
 <div class="board">
   {{#each animes}}
   <div class="card">
-    <a href="{{{myanimelistLink}}}" target="_newtab" imageanchor="1">
+    <a href="{{{bloggerLink}}}" imageanchor="1">
       <img class="cover" alt="{{title}} Cover" border="0" title="{{title}}"
         src="{{{coverURL}}}" />
     </a>
     <div class="title">
-      <a href="{{{bloggerLink}}}">{{{title}}}</a>
+      <a href="{{{myanimelistLink}}}" target="_newtab">{{{title}}}</a>
     </div>
   </div>
   {{/each}}
