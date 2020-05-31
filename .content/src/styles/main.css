@@ -237,7 +237,7 @@ blockquote:after {
   content: "\00BB";
   position: absolute;
   opacity: 0;
-  top: 0;
+  top: -3px;
   left: -20px;
   transition: 0.5s;
 }
@@ -248,7 +248,7 @@ blockquote:after {
 
 .dropdown-button:hover span:after {
   opacity: 1;
-  left: 0;
+  left: 2px;
   transform: rotate(-90deg);
 }
 
