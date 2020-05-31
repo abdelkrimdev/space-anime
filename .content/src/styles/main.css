@@ -171,10 +171,6 @@ blockquote:after {
   color: white;
 }
 
-.anime-episodes {
-  padding-top: 10px;
-}
-
 .dropdown-menu {
   display: none;
   position: absolute;
@@ -258,7 +254,7 @@ blockquote:after {
 
 .episode {
   width: 100%;
-  min-height: 360px;
+  min-height: 456px;
 }
 
 .fade {
@@ -276,7 +272,7 @@ blockquote:after {
 }
 
 #episodes-container {
-  max-height: 360px;
+  max-height: 456px;
   position: relative;
   text-align: center;
 }
