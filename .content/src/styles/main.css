@@ -276,6 +276,7 @@ blockquote:after {
 }
 
 #episodes-container {
+  max-height: 360px;
   position: relative;
   text-align: center;
 }
@@ -316,6 +317,10 @@ blockquote:after {
 
   .dropdown-menu span {
     padding: 8px 10px;
+  }
+
+  #episodes-container {
+    max-height: 240px;
   }
 
   .episode {
