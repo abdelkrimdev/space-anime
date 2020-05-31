@@ -288,3 +288,37 @@ blockquote:after {
   font-size: large;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 560px) {
+  .navigation-button {
+    padding: 12px 22px;
+  }
+
+  .navigation-button span {
+    display: none;
+  }
+
+  .previous-episode:after {
+    content: "\2039";
+  }
+
+  .next-episode:after {
+    content: "\203A";
+  }
+
+  .dropdown-button {
+    padding: 12px 6px;
+  }
+
+  .dropdown-menu {
+    max-height: 240px;
+  }
+
+  .dropdown-menu span {
+    padding: 8px 10px;
+  }
+
+  .episode {
+    min-height: 240px;
+  }
+}
