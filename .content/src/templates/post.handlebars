@@ -1,7 +1,7 @@
 <div class="main-content" dir="rtl" trbidi="on">
   <div class="post-metadata">
     <div class="post-cover">
-        <img src="{{{postCoverURL}}}" />
+      <img src="{{{postCoverURL}}}" />
     </div>
     <div class="post-description">
       {{{postDescription}}}
@@ -12,8 +12,7 @@
       <div class="anime-card">
         <div class="anime-cover">
           <a href="{{{myanimelistLink}}}" imageanchor="1" target="_newtab">
-            <img alt="{{{animeTitle}}} Cover" border="0" title="{{{animeTitle}}}"
-              src="{{{animeCoverURL}}}" />
+            <img alt="{{{animeTitle}}} Cover" border="0" title="{{{animeTitle}}}" src="{{{animeCoverURL}}}" />
           </a>
         </div>
         <dl class="anime-details">
@@ -29,6 +28,34 @@
             {{{animeStory}}}
           </blockquote>
       </div>
+      <div class="anime-episodes">
+        <div class="navigation-menu">
+          <div class="previous-episode navigation-button" onclick="changeEpisode(-1)">
+            <span>&rsaquo;السابقة</span>
+          </div>
+          <div class="episodes-list">
+            <div class="dropdown-button" onclick="toggleEpisodesList()">
+              <span>قائمة الحلقات</span>
+            </div>
+            <div class="dropdown-menu" id="episodes-keys" onclick="toggleEpisodesList()">
+              {{#each episodesLinks}}
+              <span onclick="currentEpisode({{{key}}})">الحلقة {{{key}}}</span>
+              {{/each}}
+            </div>
+          </div>
+          <div class="next-episode navigation-button" onclick="changeEpisode(1)">
+              <span>التالية&lsaquo;</span>
+          </div>
+        </div>
+        <div id="episodes-container">
+          {{#each episodesLinks}}
+          <div class="fade">
+            <div class="caption">الحلقة {{{key}}}</div>
+            <iframe allowfullscreen="true" class="episode" frameborder="0" src="{{{streamingLink}}}"></iframe>
+          </div>
+          {{/each}}
+        </div>
+      </div>
     </div>
     <div class="download-section">
       <div class="section-title">
@@ -37,7 +64,7 @@
       <div class="direct-download">
         <ul class="episodes-list">
           {{#each episodesLinks}}
-          <li class="episode-link"><a href="{{{value}}}" target="_newtab">{{{key}}}</a></li>
+          <li class="episode-link"><a href="{{{downloadLink}}}" target="_newtab">{{{key}}}</a></li>
           {{/each}}
         </ul>
       </div>
