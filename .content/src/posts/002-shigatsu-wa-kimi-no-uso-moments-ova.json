@@ -50,7 +50,8 @@
   "episodesLinks": [
     {
       "key": "01",
-      "value": "https://mega.nz/#!O5xERCrb!mdDbkyHv-0hnNoGzGLR77z5JxN1CAgT4Vt0rdyunp-M"
+      "downloadLink01": "https://mega.nz/#!O5xERCrb!mdDbkyHv-0hnNoGzGLR77z5JxN1CAgT4Vt0rdyunp-M",
+      "streamingLink01": "1shkbmcgy7gn"
     }
   ],
   "subtitlesLink": "https://www.dropbox.com/s/8h6thxymqcb15so/%5BESPADAS-SUBS%5D%20Shigatsu%20wa%20Kimi%20no%20Uso%20Moments%20%5B576p%5D.zip"
