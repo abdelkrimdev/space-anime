@@ -50,91 +50,113 @@
   "episodesLinks": [
     {
       "key": "01",
-      "value": "https://mega.nz/#!iwBFgSzS!ykuKgsft30DaZElqWuOM6O5ptHV7F1Qq0hiwCZLTPqI"
+      "downloadLink01": "https://mega.nz/#!iwBFgSzS!ykuKgsft30DaZElqWuOM6O5ptHV7F1Qq0hiwCZLTPqI",
+      "streamingLink01": "vpdmkixu7py3"
     },
     {
       "key": "02",
-      "value": "https://mega.nz/#!OgpAhLoS!6zpmRncUH3jyHy-3-ai6FBsz-qtFGui0mzOmqntGPUo"
+      "downloadLink01": "https://mega.nz/#!OgpAhLoS!6zpmRncUH3jyHy-3-ai6FBsz-qtFGui0mzOmqntGPUo",
+      "streamingLink01": "h70s8nxyi2sk"
     },
     {
       "key": "03",
-      "value": "https://mega.nz/#!24IRDBgB!ZXvzye_50mIK7Wsb2WJP8qE4ESJHO95Kxk8uydD0vPs"
+      "downloadLink01": "https://mega.nz/#!24IRDBgB!ZXvzye_50mIK7Wsb2WJP8qE4ESJHO95Kxk8uydD0vPs",
+      "streamingLink01": "c2voyxju4sdy"
     },
     {
       "key": "04",
-      "value": "https://mega.nz/#!30501IAC!EIuQ702syeWy645p4N5RLGQpImlzpi2UqwvUnfpicus"
+      "downloadLink01": "https://mega.nz/#!30501IAC!EIuQ702syeWy645p4N5RLGQpImlzpi2UqwvUnfpicus",
+      "streamingLink01": "kx7o3hzmr06k"
     },
     {
       "key": "05",
-      "value": "https://mega.nz/#!2xY2HbZZ!Ah8pxrwmFw52VA4ZV5VumGZfy_CKmklEoK8O_gwPlEo"
+      "downloadLink01": "https://mega.nz/#!2xY2HbZZ!Ah8pxrwmFw52VA4ZV5VumGZfy_CKmklEoK8O_gwPlEo",
+      "streamingLink01": "zau6wnvo54ue"
     },
     {
       "key": "06",
-      "value": "https://mega.nz/#!jpB2mQbQ!7M7c4H8-YGXdHUSqYN3TabAsiM-VzPwDfh0u-J8Qcq4"
+      "downloadLink01": "https://mega.nz/#!jpB2mQbQ!7M7c4H8-YGXdHUSqYN3TabAsiM-VzPwDfh0u-J8Qcq4",
+      "streamingLink01": "wmr0iqde02fw"
     },
     {
       "key": "07",
-      "value": "https://mega.nz/#!24hRlBZK!UnZ2s1qF5NDQF8oEptAybJbfmRUdFpF0rjq6YNEGuRU"
+      "downloadLink01": "https://mega.nz/#!24hRlBZK!UnZ2s1qF5NDQF8oEptAybJbfmRUdFpF0rjq6YNEGuRU",
+      "streamingLink01": "1wc26o214boa"
     },
     {
       "key": "08",
-      "value": "https://mega.nz/#!u4Ri2CBA!TW2n1f2YRh4YEWaHgnb4uf9JZirymx5Az73t4gGKrCc"
+      "downloadLink01": "https://mega.nz/#!u4Ri2CBA!TW2n1f2YRh4YEWaHgnb4uf9JZirymx5Az73t4gGKrCc",
+      "streamingLink01": "6jawaudqcp5x"
     },
     {
       "key": "09",
-      "value": "https://mega.nz/#!K5QSlTAZ!LjfU8E6c3cqc-Cus7AdynXs6hIpQUovu8eMlgWloflA"
+      "downloadLink01": "https://mega.nz/#!K5QSlTAZ!LjfU8E6c3cqc-Cus7AdynXs6hIpQUovu8eMlgWloflA",
+      "streamingLink01": "06y0yz9rgxuv"
     },
     {
       "key": "10",
-      "value": "https://mega.nz/#!fhwCwDgb!U9-uzdmq3CMrwyCikO62GI1NiN5OAtVWH7rQSIQlr_o"
+      "downloadLink01": "https://mega.nz/#!fhwCwDgb!U9-uzdmq3CMrwyCikO62GI1NiN5OAtVWH7rQSIQlr_o",
+      "streamingLink01": "fzzxmf0t145n"
     },
     {
       "key": "11",
-      "value": "https://mega.nz/#!SwpCERKL!4XFlNt-hv7h7qfR9lcHFq2RvmRYPwiEPQIEoNiVxhn0"
+      "downloadLink01": "https://mega.nz/#!SwpCERKL!4XFlNt-hv7h7qfR9lcHFq2RvmRYPwiEPQIEoNiVxhn0",
+      "streamingLink01": "x4dwr7fhgogp"
     },
     {
       "key": "12",
-      "value": "https://mega.nz/#!m0BjmTaT!svTXKXDdnvhIcKYxZBNg0813vQt10SDjb7t4oZGEKNg"
+      "downloadLink01": "https://mega.nz/#!m0BjmTaT!svTXKXDdnvhIcKYxZBNg0813vQt10SDjb7t4oZGEKNg",
+      "streamingLink01": "ykdp4qagas7f"
     },
     {
       "key": "13",
-      "value": "https://mega.nz/#!zkpWFB7Z!19Gi4qSO-NNbKLOsKPa7ye2giYF7CIGKhsrbMn9p4zo"
+      "downloadLink01": "https://mega.nz/#!zkpWFB7Z!19Gi4qSO-NNbKLOsKPa7ye2giYF7CIGKhsrbMn9p4zo",
+      "streamingLink01": "uv8hbxtijq1e"
     },
     {
       "key": "14",
-      "value": "https://mega.nz/#!60x0mbyb!jYIN9pWHaIbwCWdZ7FcyH58_-_BtfqxB0GktdbFjzBM"
+      "downloadLink01": "https://mega.nz/#!60x0mbyb!jYIN9pWHaIbwCWdZ7FcyH58_-_BtfqxB0GktdbFjzBM",
+      "streamingLink01": "3zdct5l2kaai"
     },
     {
       "key": "15",
-      "value": "https://mega.nz/#!z05U0YaR!YKIzuKa-sg8NSQu-Rz_Gh2L99th0GP7m_p_tMu1ukhI"
+      "downloadLink01": "https://mega.nz/#!z05U0YaR!YKIzuKa-sg8NSQu-Rz_Gh2L99th0GP7m_p_tMu1ukhI",
+      "streamingLink01": "ew1jcha6cwfo"
     },
     {
       "key": "16",
-      "value": "https://mega.nz/#!3oY02aCL!cChhu3NEJ6jRQm7K_9kFbCABpy6MdfCc1MwtrT91gAA"
+      "downloadLink01": "https://mega.nz/#!3oY02aCL!cChhu3NEJ6jRQm7K_9kFbCABpy6MdfCc1MwtrT91gAA",
+      "streamingLink01": "7mrdyuu5sa89"
     },
     {
       "key": "17",
-      "value": "https://mega.nz/#!S4YkmKgC!VSYO5yfNn8UKzdmie56D823YP9uBFyK4utNjb-Stuvc"
+      "downloadLink01": "https://mega.nz/#!S4YkmKgC!VSYO5yfNn8UKzdmie56D823YP9uBFyK4utNjb-Stuvc",
+      "streamingLink01": "y9ivkwx4foi6"
     },
     {
       "key": "18",
-      "value": "https://mega.nz/#!m1RBSKIJ!Ng-pm_az6PpHkUXtC1iBMb_j5X87kjb_DACMHMW6ni0"
+      "downloadLink01": "https://mega.nz/#!m1RBSKIJ!Ng-pm_az6PpHkUXtC1iBMb_j5X87kjb_DACMHMW6ni0",
+      "streamingLink01": "d93nqj8q05vc"
     },
     {
       "key": "19",
-      "value": "https://mega.nz/#!ikQUULxA!KBL_JnxMnonxDUatmcCQhwhOvLPmcPYtmWmt4WwdvMU"
+      "downloadLink01": "https://mega.nz/#!ikQUULxA!KBL_JnxMnonxDUatmcCQhwhOvLPmcPYtmWmt4WwdvMU",
+      "streamingLink01": "86d45ls2c4js"
     },
     {
       "key": "20",
-      "value": "https://mega.nz/#!zs5VUSoY!5DRNWAOu-2Z1w_ScE0Clq-744sH2xvDytyw2781rCAY"
+      "downloadLink01": "https://mega.nz/#!zs5VUSoY!5DRNWAOu-2Z1w_ScE0Clq-744sH2xvDytyw2781rCAY",
+      "streamingLink01": "lf0971c1lc55"
     },
     {
       "key": "21",
-      "value": "https://mega.nz/#!6ggAHDyS!JJBtUABtLJ3oj4z0Bvv5iLlZDAQQKKN2zBR1kD1wwKI"
+      "downloadLink01": "https://mega.nz/#!6ggAHDyS!JJBtUABtLJ3oj4z0Bvv5iLlZDAQQKKN2zBR1kD1wwKI",
+      "streamingLink01": "o8hyblmow50q"
     },
     {
       "key": "22",
-      "value": "https://mega.nz/#!y4IwFARJ!dQIsDU9vOd0qVPrgBCaOoNxxFEbM5hM7xA37JXMxVVE"
+      "downloadLink01": "https://mega.nz/#!y4IwFARJ!dQIsDU9vOd0qVPrgBCaOoNxxFEbM5hM7xA37JXMxVVE",
+      "streamingLink01": "pm9idxrkjb0j"
     }
   ],
   "subtitlesLink": "https://www.dropbox.com/s/3nu24v41jwx0q48/%5BESPADAS-SUBS%5D%20Shigatsu%20wa%20Kimi%20no%20Uso%201%20-%2022.zip"
